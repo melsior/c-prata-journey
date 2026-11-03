@@ -1,0 +1,18 @@
+# Исполняемые файлы без расширений
+*
+!*/
+!*.c
+!*.h
+!*.md
+!Makefile
+!.gitignore
+!.clang-format
+
+# Отладочные дампы и мусор
+*.o
+*.out
+*.dSYM/
+.cache/
+build/
+compile_commands.json
+*.red
