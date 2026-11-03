@@ -10,6 +10,8 @@ int main(void) {
   num2 = 8.7;
   printf("The smaller number between %f and %f is %f.\n", num1, num2,
          min(num1, num2));
+
+  return 0;
 }
 
-double min(double x, double y) { return (x > y ? x : y); }
+double min(double x, double y) { return (x < y ? x : y); }
